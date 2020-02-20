@@ -17,16 +17,16 @@ El index debe contener la siguiente construcción
     
     - <header> contendrá los iconos del instituto y los datos informativos necesarios
     - <body> contendrá toda la página separada en secciones por etiquetas div's
-    - <div class=home > contendrá la pantalla principal donde se elije el curos con 3 botones, uno para resolución de triángulos, otro para ley de senos y el último para ley de cosenos
-    - <div class=materia > contendrá la materia necesaria para resolver el ejercicio, con imágenes y lo que se necesite, esto puede ir quemado directamente en el html
-    - <div class=ejemplo > contendrá el ejercicio resueelto como ejemplo para poder resolver el ejercicio propuesto
+    - <div id=home > contendrá la pantalla principal donde se elije el curos con 3 botones, uno para resolución de triángulos, otro para ley de senos y el último para ley de cosenos
+    - <div id=materia > contendrá la materia necesaria para resolver el ejercicio, con imágenes y lo que se necesite, esto puede ir quemado directamente en el html
+    - <div id=ejemplo > contendrá el ejercicio resueelto como ejemplo para poder resolver el ejercicio propuesto
     - <h2> Ejercicio Propuesto </h2> <!-- Se trata de un título estático quemado en el html -->
-    - <div class=ejercicio > contendrá el ejercicio completo
-        -<div class=encabezado > indica el encabezado del ejercicio propuesto
-        -<div class=respuestas > contiene una serie de 5 opciones de respuesta con un select para seleccionar una
-    - <div class=botones > contiene un botón para entregar la pregunta
-    - <div class=correcto > contiene la pantalla de felicitación que aparece al elegir la opción correcta y el botón para avanzar al siguiente tema
-    - <div class=incorrecto > contiene el mensaje de respuesta incorrecta vuelva a intentar y el botón para regresar
+    - <div id=ejercicio > contendrá el ejercicio completo
+        -<div id=encabezado > indica el encabezado del ejercicio propuesto
+        -<div id=respuestas > contiene una serie de 5 opciones de respuesta con un select para seleccionar una
+    - <div id=botones > contiene un botón para entregar la pregunta
+    - <div id=correcto > contiene la pantalla de felicitación que aparece al elegir la opción correcta y el botón para avanzar al siguiente tema
+    - <div id=incorrecto > contiene el mensaje de respuesta incorrecta vuelva a intentar y el botón para regresar
     - </body>
     - <footer> contendrá los datos de los integrantes, carrera, curso y profesor
 
